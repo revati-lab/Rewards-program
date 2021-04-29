@@ -46,7 +46,7 @@ class UserRewards extends React.Component<IUserRewardProps> {
 
     for (const iterator of transactions) {
       let data: string = (
-        new Date(iterator.transactionDate).getMonth() + 1
+        new Date(iterator.transactionDate).getMonth()
       ).toString();
 
       if (!usrMonthlyRewards.has(data)) {

@@ -6,7 +6,7 @@ import user from "./Features/UserTransactions";
 
 function App() {
   return (
-    <div>
+    <div style={{ marginTop: "40px" }}>
       <UserRewards userTransactions={user} />
     </div>
   );
